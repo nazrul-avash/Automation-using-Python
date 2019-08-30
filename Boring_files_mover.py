@@ -10,7 +10,7 @@ for d in genOb:
 			print(f)
 			shutil.copy(d[0]+"/"+f,dest) #
 			os.unlink(d[0]+"/"+f)
-			continue
+			conztinue
 		temp = os.path.splitext(f)
 		print(d[0]+"wall"+str(file_num)+temp[1]+" <<<<<<  "+d[0]+f)	
 		os.rename(d[0]+f,d[0]+"wall"+str(file_num)+temp[1])
